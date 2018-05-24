@@ -32,6 +32,7 @@ app.use('/getWeather', function(req, res){
 })
 
 app.use('/search', function(req, res){
+  console.log(req)
   res.send(req.body)
 })
 
